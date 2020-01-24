@@ -13,20 +13,20 @@ This class extends our object class. Here, we initialize three values, an Object
 
 array class methods
 -----------
-All of our methods are virtual, so they can be accessed and manipulated outside of the class.
+All of our methods are virtual, so they can be accessed and manipulated outside of the class. <br>
 
-size() //returns the number of elements in this array
-index_of(Object* o) //returns index of given object in this array
-grow() //doubles the allocated space for this array
-push(Object* o) //pushes given object onto end of this array
-add(size_t idx, Object* o) //adds given element to the array at the given index
-add_all(size_t idx, Array* a) //adds all given elements to the array at the given index
-get(size_t idx) //returns element of the array at the given index
-set(size_t idx, Object* o) //sets the given index to the given element
-remove(size_t idx) //removes the object at the given index
-clear() //removes all elements from the array
-equals(Object* o) //checks if this array is equal to the given object
-hash() //adds together the hashes of all the objects
+size() //returns the number of elements in this array <br>
+index_of(Object* o) //returns index of given object in this array <br>
+grow() //doubles the allocated space for this array <br>
+push(Object* o) //pushes given object onto end of this array <br>
+add(size_t idx, Object* o) //adds given element to the array at the given index <br>
+add_all(size_t idx, Array* a) //adds all given elements to the array at the given index <br>
+get(size_t idx) //returns element of the array at the given index <br>
+set(size_t idx, Object* o) //sets the given index to the given element <br>
+remove(size_t idx) //removes the object at the given index <br>
+clear() //removes all elements from the array <br>
+equals(Object* o) //checks if this array is equal to the given object <br>
+hash() //adds together the hashes of all the objects <br>
 
 test-array class
 -----------

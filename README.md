@@ -1,15 +1,15 @@
-//description of code for part 2
+//Array API
 
-For this assignment, we decided to create the API for an array. Since we used this API for part 1, we have a fully functional array class that has methods as well as implementations of those methods. 
+For this assignment, we decided to create the API for an array
 
 //object class
 This class creates a generic object type. Here, we test whether two Objects are equal to each other, as well as a hash function that returns the Object's pointer value. 
 
 //array class
-This class extends our object class. Here, we initialize three values, an Object** arr_, size_t size_ (number of elements in the list) and size_t cap_ (capacity of the list). We also have a deconstruction that deletes the array. 
+This class extends our object class. Here, we initialize three values, an Object** arr_, size_t size_ (number of elements in the list) and size_t cap_ (capacity of the list). We also have a deconstructor that deletes the array. 
 
 //array class methods
-All of our methods are virtual, so they can be accessed and manipulated outside of the class. Most of these methods are used in part 2.
+All of our methods are virtual, so they can be accessed and manipulated outside of the class.
 
 size() //returns the number of elements in this array
 index_of(Object* o) //returns index of given object in this array

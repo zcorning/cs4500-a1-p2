@@ -4,20 +4,9 @@
 #include <assert.h>
 
 class Array : public Object {
-    public:
-        Object** arr_; // elements not owned
-        size_t size_; // number of elements in the list
-        size_t cap_; // capacity of the list
 
-        // constructs an empty list
-        Array() : Object() {
-            cap_ = 4;
-            size_ = 0;
-            arr_ = new Object*[cap_];
-        }
-
+        //deconstructor
         ~Array() {
-            delete[] arr_;
         }
 
         // returns the number of elements in this array

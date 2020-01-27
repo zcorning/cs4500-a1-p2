@@ -4,6 +4,13 @@
 #include <assert.h>
 
 class Array : public Object {
+        
+        //empty constructors
+        Array(size_t array_size) {}
+
+        Array(const size_t array_size) {}
+
+        Array(Array* copy_array) {}
 
         //deconstructor
         ~Array() {
